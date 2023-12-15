@@ -1,14 +1,15 @@
 import os
+
 import numpy as np
-from PIL import Image
-
 import torch
-import torchvision.transforms as transforms
 import torch.utils.data as data
-
+import torchvision.transforms as transforms
+from PIL import Image
 from sklearn.neighbors import NearestNeighbors
-from network.utils import TransformerCV
+
 from network.groupnet import group_config
+from network.utils import TransformerCV
+
 
 def input_transform():
     return transforms.Compose([
