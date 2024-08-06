@@ -1,7 +1,7 @@
 # BEVPlace++: Fast, Robust, and Lightweight LiDAR Global Localization for Unmanned Ground Vehicles
-BEVPlace++ is a LiDAR-based global localization method. It projects point clouds into Bird's-eye View (BEV) images and generate global feature with a rotation equivariant module and the NetVLAD. It sequentially perform place recognition and pose estimation to achieve complete global localization. Experiments show that BEVPlace++ significantly outperforms the state-of-the-art (SOTA) methods and generalizes well to previously unseen environments. BEVPlace++ will certainly benefit various applications, including loop closure detection, global localization, and SLAM. Please feel free to use and enjoy it!
+BEVPlace++ is a LiDAR-based global localization method. It projects point clouds into Bird's-eye View (BEV) images and generate global feature with a rotation equivariant module and the NetVLAD. It sequentially perform place recognition and pose estimation to achieve complete global localization. Experiments show that BEVPlace++ significantly outperforms the SOTA methods and generalizes well to previously unseen environments. BEVPlace++ will certainly benefit various applications, including loop closure detection, global localization, and SLAM. Please feel free to use and enjoy it!
 
-> paper comming soon...
+> More details could be found in our paper https://arxiv.org/pdf/2408.01841
 
 # Results
 
